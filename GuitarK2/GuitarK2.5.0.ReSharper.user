@@ -1,0 +1,335 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="61C7E9F1-86E8-445B-ACB3-09DDBE95FE5D/f:Program.cs" caret="603" fromTop="8" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/f:App.xaml.cs" caret="304" fromTop="13" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Controls/f:DrumControl.xaml" caret="983" fromTop="0" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/f:App.xaml" caret="0" fromTop="0" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:LogoTextControl.xaml" caret="1676" fromTop="27" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Controls/f:PianoControlWPF.xaml" caret="0" fromTop="0" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Pendulum.xaml" caret="14527" fromTop="1" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:ReflectionTextControl.xaml.cs" caret="410" fromTop="13" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:VolumeControl.xaml" caret="55" fromTop="0" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:VolumeControl.xaml.cs" caret="410" fromTop="13" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:MidiBand/f:MidiBandWindow.xaml.cs" caret="17739" fromTop="9" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Page.xaml" caret="386" fromTop="1" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:ReflectionTextControl.xaml" caret="963" fromTop="12" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/f:MainWindow.xaml.cs" caret="3777" fromTop="13" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:LogoTextControl.xaml.cs" caret="1665" fromTop="19" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="2143" fromTop="4" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/f:MainWindow.xaml" caret="288" fromTop="2" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml" caret="2847" fromTop="0" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml.cs" caret="1537" fromTop="11" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Pendulum.xaml.cs" caret="1017" fromTop="19" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Constants/f:BeatsPerMinute.cs" caret="0" fromTop="0" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml.cs" caret="4026" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml" caret="3116" fromTop="0" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:ReflectionTextControl.xaml" caret="863" fromTop="12" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml" caret="220" fromTop="2" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="12542" fromTop="8" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="1090" fromTop="5" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="3265" fromTop="5" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="2440" fromTop="6" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="7439" fromTop="3" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="3860" fromTop="0" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="4499" fromTop="8" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="8017" fromTop="3" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="8488" fromTop="6" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="8957" fromTop="7" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="10688" fromTop="7" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="11209" fromTop="7" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="7724" fromTop="5" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="11728" fromTop="8" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml.cs" caret="4787" fromTop="21" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml.cs" caret="4165" fromTop="21" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml.cs" caret="706" fromTop="14" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml" caret="1779" fromTop="1" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml" caret="1064" fromTop="1" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="2287" fromTop="5" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml" caret="2143" fromTop="4" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml.cs" caret="1101" fromTop="5" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml" caret="1543" fromTop="4" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml" caret="2847" fromTop="0" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/f:MetronomeWindow.xaml.cs" caret="4330" fromTop="11" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Metronome.xaml.cs" caret="1549" fromTop="16" />
+      <File id="25C6020F-C6DD-4424-A7E9-C340047FC581/d:Tools/d:Metronome/d:Controls/f:Pendulum.xaml.cs" caret="1017" fromTop="19" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="21" />
+      <Item value="private" priority="4" />
+      <Item value="char" priority="0" />
+      <Item value="return" priority="7" />
+      <Item value="int" priority="3" />
+      <Item value="string" priority="12" />
+      <Item value="prop" priority="2" />
+      <Item value="static" priority="6" />
+      <Item value="List" priority="7" />
+      <Item value="row_" priority="1" />
+      <Item value="dao" priority="2" />
+      <Item value="new" priority="23" />
+      <Item value="PractiseDao" priority="0" />
+      <Item value="lvScalePractise" priority="0" />
+      <Item value="Note`0" priority="4" />
+      <Item value="Scale`0" priority="0" />
+      <Item value="Scale" priority="0" />
+      <Item value="using" priority="5" />
+      <Item value="System" priority="1" />
+      <Item value="Note" priority="0" />
+      <Item value="Console`0" priority="4" />
+      <Item value="ScalePractise`0" priority="1" />
+      <Item value="cmdMyQuery" priority="0" />
+      <Item value="List&lt;ScalePractise&gt;" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="String`0" priority="6" />
+      <Item value="foreach" priority="5" />
+      <Item value="VARIABLE" priority="0" />
+      <Item value="provider" priority="0" />
+      <Item value="FixedPath" priority="0" />
+      <Item value="Practise`0" priority="0" />
+      <Item value="GeneralScalePractise`0" priority="3" />
+      <Item value="practiseType" priority="0" />
+      <Item value="scalePractiseList" priority="2" />
+      <Item value="GeneralScalePractise" priority="1" />
+      <Item value="_gsp" priority="2" />
+      <Item value="List&lt;GeneralScalePractise&gt;" priority="2" />
+      <Item value="cbScalePractise" priority="2" />
+      <Item value="if" priority="3" />
+      <Item value="selectedItem" priority="2" />
+      <Item value="MessageBox`0" priority="3" />
+      <Item value="DataTable`0" priority="0" />
+      <Item value="dTable" priority="0" />
+      <Item value="Dictionary&lt;string,List&lt;GeneralScalePractise&gt;&gt;" priority="0" />
+      <Item value="scalePractiseDao" priority="3" />
+      <Item value="ScalePractiseDao" priority="0" />
+      <Item value="generalScalePractise" priority="4" />
+      <Item value="else" priority="2" />
+      <Item value="key" priority="0" />
+      <Item value="AllPractiseList`0" priority="1" />
+      <Item value="Dao" priority="0" />
+      <Item value="AllPractiseList" priority="1" />
+      <Item value="IDictionary" priority="0" />
+      <Item value="practiseList" priority="1" />
+      <Item value="in" priority="0" />
+      <Item value="AllScalePracTypes" priority="0" />
+      <Item value="pracType" priority="1" />
+      <Item value="value" priority="2" />
+      <Item value="override" priority="0" />
+      <Item value="PractiseRoutine" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="Visibility`0" priority="0" />
+      <Item value="Visibility" priority="0" />
+      <Item value="ListBox`0" priority="1" />
+      <Item value="List&lt;ListBox&gt;" priority="0" />
+      <Item value="TextBox`0" priority="1" />
+      <Item value="List&lt;TextBox&gt;" priority="0" />
+      <Item value="TextBox" priority="1" />
+      <Item value="tb" priority="0" />
+      <Item value="scalePracType" priority="1" />
+      <Item value="ListBox" priority="0" />
+      <Item value="_lb" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="i" priority="1" />
+      <Item value="gridScale" priority="8" />
+      <Item value="pracTypeTbList" priority="0" />
+      <Item value="lbGeneralScalePractise" priority="0" />
+      <Item value="while" priority="0" />
+      <Item value="j" priority="0" />
+      <Item value="StackPanel`0" priority="0" />
+      <Item value="panel" priority="1" />
+      <Item value="StackPanel" priority="0" />
+      <Item value="SysExMessage`0" priority="0" />
+      <Item value="Windows" priority="1" />
+      <Item value="Forms" priority="0" />
+      <Item value="DialogResult`0" priority="0" />
+      <Item value="WPFMidiBand" priority="2" />
+      <Item value="midiBand" priority="1" />
+      <Item value="MediaButton" priority="0" />
+      <Item value="mdb" priority="0" />
+      <Item value="Pendulum`0" priority="0" />
+      <Item value="Pendulum" priority="0" />
+      <Item value="pd" priority="0" />
+      <Item value="GuitarK2" priority="1" />
+      <Item value="Tools" priority="1" />
+      <Item value="Metronome" priority="2" />
+      <Item value="SilverlightMetronome" priority="2" />
+      <Item value="metronome" priority="1" />
+      <Item value="Metronome`0" priority="0" />
+      <Item value="ButtonTypes`0" priority="0" />
+      <Item value="this" priority="5" />
+      <Item value="MetronomeWindow`0" priority="0" />
+      <Item value="MetronomeWindow" priority="2" />
+      <Item value="win" priority="1" />
+      <Item value="FontCapitals`0" priority="0" />
+      <Item value="DefaultSettingValueAttribute`0" priority="0" />
+      <Item value="Controls" priority="0" />
+      <Item value="MediaElement`0" priority="0" />
+      <Item value="Uri" priority="0" />
+      <Item value="txbxTempo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListView">
+      <Item value="ItemsSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.Dao.PractiseDao">
+      <Item value="getAllScalePractiseType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="3" />
+      <Item value="ReadKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbCommand">
+      <Item value="Parameters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbParameterCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.Data.GeneralScalePractise">
+      <Item value="PractiseRoutine" priority="2" />
+      <Item value="PractiseType" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="ItemsSource" priority="1" />
+      <Item value="PreviewMouseRightButtonDown" priority="0" />
+      <Item value="Visibility" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.Dao.ScalePractiseDao">
+      <Item value="getScalePractiseForType`0" priority="1" />
+      <Item value="getAllPractiseRoutine`0" priority="0" />
+      <Item value="getAllScalePractiseType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="SelectedIndex" priority="0" />
+      <Item value="SelectedValue" priority="3" />
+      <Item value="SelectedItem" priority="0" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IDictionary`2">
+      <Item value="ContainsKey`0" priority="0" />
+      <Item value="Add`0" priority="2" />
+      <Item value="Keys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="4" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.PractiseList.AllPractiseList">
+      <Item value="AllScalePracTypes" priority="1" />
+      <Item value="ScalePractiseListPerType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Window">
+      <Item value="MouseRightButtonDown" priority="1" />
+      <Item value="OnMouseRightButtonDown`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ItemCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Visibility">
+      <Item value="Hidden" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBox">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Grid">
+      <Item value="Children" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.UIElementCollection">
+      <Item value="Add`0" priority="1" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="Contains`0" priority="1" />
+      <Item value="RemoveRange`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.StackPanel">
+      <Item value="Children" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="0" />
+      <Item value="Cancel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.Tools.MidiBand.MidiBandWindow">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.Tools.Metronome.MediaButton">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.Tools.Metronome.Pendulum">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.Tools.Metronome.MetronomeWindow">
+      <Item value="Show`0" priority="1" />
+      <Item value="MyMetronome" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ValueSource`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Button">
+      <Item value="ToolTip" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.Tools.Metronome.Controls.Metronome">
+      <Item value="TickPlayer" priority="1" />
+      <Item value="MetronomeTempo" priority="0" />
+      <Item value="pendulumLenght" priority="0" />
+      <Item value="Pendulum" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.MediaElement">
+      <Item value="Play`0" priority="0" />
+      <Item value="LoadedBehavior" priority="0" />
+      <Item value="Resources" priority="0" />
+      <Item value="Source" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Controls.MediaElement">
+      <Item value="LoadedBehaviorProperty" priority="0" />
+      <Item value="UnloadedBehaviorProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.DependencyProperty">
+      <Item value="PropertyType" priority="1" />
+      <Item value="DefaultMetadata" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.PropertyMetadata">
+      <Item value="DefaultValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GuitarK2.Tools.Metronome.Controls.Pendulum">
+      <Item value="Tempo" priority="0" />
+      <Item value="PendulumSlider" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Slider">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

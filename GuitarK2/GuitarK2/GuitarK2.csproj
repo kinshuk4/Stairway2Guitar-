@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{25C6020F-C6DD-4424-A7E9-C340047FC581}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GuitarK2</RootNamespace>
+    <AssemblyName>GuitarK2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sanford.Collections">
+      <HintPath>Resources\Dlls\Sanford.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Sanford.Multimedia">
+      <HintPath>Resources\Dlls\Sanford.Multimedia.dll</HintPath>
+    </Reference>
+    <Reference Include="Sanford.Multimedia.Midi.WPF">
+      <HintPath>Resources\Dlls\Sanford.Multimedia.Midi.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Sanford.Multimedia.Timers">
+      <HintPath>Resources\Dlls\Sanford.Multimedia.Timers.dll</HintPath>
+    </Reference>
+    <Reference Include="Sanford.Threading">
+      <HintPath>Resources\Dlls\Sanford.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controls\BassControl.xaml.cs">
+      <DependentUpon>BassControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DrumControl.xaml.cs">
+      <DependentUpon>DrumControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GuitarControl.xaml.cs">
+      <DependentUpon>GuitarControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PianoControlWPF.xaml.cs">
+      <DependentUpon>PianoControlWPF.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PianoKeyWPF.xaml.cs">
+      <DependentUpon>PianoKeyWPF.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dao\PractiseDao.cs" />
+    <Compile Include="Dao\ScalePractiseDao.cs" />
+    <Compile Include="Data\GeneralScalePractise.cs" />
+    <Compile Include="Data\Practise.cs" />
+    <Compile Include="Data\ScalePractise.cs" />
+    <Compile Include="Enums\NoteEnum.cs" />
+    <Compile Include="GuitarData\Note.cs" />
+    <Compile Include="GuitarData\Scale.cs" />
+    <Compile Include="PractiseList\AllPractiseList.cs" />
+    <Compile Include="Resources\db\GuitarDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GuitarDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Metronome\Constants\BeatsPerMinute.cs" />
+    <Compile Include="Tools\Metronome\Constants\TempoNames.cs" />
+    <Compile Include="Tools\Metronome\Controls\LogoTextControl.xaml.cs">
+      <DependentUpon>LogoTextControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Metronome\Controls\Metronome.xaml.cs">
+      <DependentUpon>Metronome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Metronome\Controls\ODESolver.cs" />
+    <Compile Include="Tools\Metronome\Controls\Page.xaml.cs">
+      <DependentUpon>Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Metronome\Controls\Pendulum.xaml.cs">
+      <DependentUpon>Pendulum.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Metronome\Controls\ReflectionTextControl.xaml.cs">
+      <DependentUpon>ReflectionTextControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Metronome\Controls\VolumeControl.xaml.cs">
+      <DependentUpon>VolumeControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Metronome\MetronomeWindow.xaml.cs">
+      <DependentUpon>MetronomeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\MidiBand\MidiBandWindow.xaml.cs">
+      <DependentUpon>MidiBandWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\MidiBand\MessageDto.cs" />
+    <Compile Include="Tools\MidiBand\DrumWindow.xaml.cs">
+      <DependentUpon>DrumWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\DbUtils.cs" />
+    <Compile Include="Utils\StringEnum.cs" />
+    <Page Include="Controls\BassControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\DrumControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\GuitarControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PianoControlWPF.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PianoKeyWPF.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\UserControl1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Tools\Metronome\Controls\LogoTextControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tools\Metronome\Controls\Metronome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tools\Metronome\Controls\Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tools\Metronome\Controls\Pendulum.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tools\Metronome\Controls\ReflectionTextControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tools\Metronome\Controls\VolumeControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tools\Metronome\MetronomeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tools\MidiBand\MidiBandWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Tools\MidiBand\DrumWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Resources\db\GuitarDBDataSet.xsc">
+      <DependentUpon>GuitarDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\db\GuitarDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GuitarDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\db\GuitarDBDataSet.xss">
+      <DependentUpon>GuitarDBDataSet.xsd</DependentUpon>
+    </None>
+    <Resource Include="Resources\Fonts\CHOPS.TTF" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\Images\BassDrum.png" />
+    <Resource Include="Resources\Images\BassDrumTomsAndSnareDrum.png" />
+    <Resource Include="Resources\Images\DrumSet.png" />
+    <Resource Include="Resources\Images\FloorTom.png" />
+    <Resource Include="Resources\Images\Guitar.png" />
+    <Resource Include="Resources\Images\guitar_icon.png" />
+    <Resource Include="Resources\Images\HiHat.png" />
+    <Resource Include="Resources\Images\HiHatFixed.png" />
+    <Resource Include="Resources\Images\HiHatTop.png" />
+    <Resource Include="Resources\Images\igm5ths.jpg" />
+    <Resource Include="Resources\Images\RideCymbal.png" />
+    <Resource Include="Resources\Images\SnareDrum.png" />
+    <Resource Include="Resources\Images\Tom1.png" />
+    <Resource Include="Resources\Images\Tom2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\db\GuitarDB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\metronomeSound\Tick.wma" />
+    <Content Include="Resources\Midis\Beat It.mid" />
+    <Content Include="Resources\Midis\Billy Jean.mid" />
+    <Content Include="Resources\Midis\Bizarre Love Triangle.mid" />
+    <Content Include="Resources\Midis\Black Dog.mid" />
+    <Content Include="Resources\Midis\Black Mountain Side.mid" />
+    <Content Include="Resources\Midis\Blitzkrieg_Bop.mid" />
+    <Content Include="Resources\Midis\Blue Monday 2.mid" />
+    <Content Include="Resources\Midis\Blue Monday.mid" />
+    <Content Include="Resources\Midis\Ceremony.mid" />
+    <Content Include="Resources\Midis\Close To Me.mid" />
+    <Content Include="Resources\Midis\Dancing_Queen.mid" />
+    <Content Include="Resources\Midis\dont stop believing.mid" />
+    <Content Include="Resources\Midis\Enter Sandman.mid" />
+    <Content Include="Resources\Midis\Friday Im In Love.mid" />
+    <Content Include="Resources\Midis\Helter Skelter.mid" />
+    <Content Include="Resources\Midis\Higher Ground.mid" />
+    <Content Include="Resources\Midis\How Many More Times.mid" />
+    <Content Include="Resources\Midis\Iron Man.mid" />
+    <Content Include="Resources\Midis\I_Wanna_Be_Sedated.mid" />
+    <Content Include="Resources\Midis\Kashmir.mid" />
+    <Content Include="Resources\Midis\Lullaby.mid" />
+    <Content Include="Resources\Midis\Manic Depression.mid" />
+    <Content Include="Resources\Midis\Moby Dick.mid" />
+    <Content Include="Resources\Midis\NothingElseMatters.mid" />
+    <Content Include="Resources\Midis\Paranoid.mid" />
+    <Content Include="Resources\Midis\Perfect Kiss.mid" />
+    <Content Include="Resources\Midis\Poker Face.mid" />
+    <Content Include="Resources\Midis\Rock And Roll.mid" />
+    <Content Include="Resources\Midis\SadButTrue.mid" />
+    <Content Include="Resources\Midis\Seven Nation Army.mid" />
+    <Content Include="Resources\Midis\Smoke On The Water.mid" />
+    <Content Include="Resources\Midis\Stairway To Heaven.mid" />
+    <Content Include="Resources\Midis\Sunday Bloody Sunday.mid" />
+    <Content Include="Resources\Midis\Sweet Child O Mine.mid" />
+    <Content Include="Resources\Midis\The Lemon Song.mid" />
+    <Content Include="Resources\Midis\Thriller.mid" />
+    <Content Include="Resources\Midis\Under Pressure.mid" />
+    <Content Include="Resources\Midis\We Will Rock Youwwry.mid" />
+    <Content Include="Resources\Midis\With Or Without You.mid" />
+    <Content Include="Resources\Midis\World.mid" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

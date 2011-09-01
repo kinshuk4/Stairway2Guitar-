@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarK2", "GuitarK2\GuitarK2.csproj", "{25C6020F-C6DD-4424-A7E9-C340047FC581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGuitar2", "TestGuitar2\TestGuitar2.csproj", "{61C7E9F1-86E8-445B-ACB3-09DDBE95FE5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25C6020F-C6DD-4424-A7E9-C340047FC581}.Debug|x86.ActiveCfg = Debug|x86
+		{25C6020F-C6DD-4424-A7E9-C340047FC581}.Debug|x86.Build.0 = Debug|x86
+		{25C6020F-C6DD-4424-A7E9-C340047FC581}.Release|x86.ActiveCfg = Release|x86
+		{25C6020F-C6DD-4424-A7E9-C340047FC581}.Release|x86.Build.0 = Release|x86
+		{61C7E9F1-86E8-445B-ACB3-09DDBE95FE5D}.Debug|x86.ActiveCfg = Debug|x86
+		{61C7E9F1-86E8-445B-ACB3-09DDBE95FE5D}.Debug|x86.Build.0 = Debug|x86
+		{61C7E9F1-86E8-445B-ACB3-09DDBE95FE5D}.Release|x86.ActiveCfg = Release|x86
+		{61C7E9F1-86E8-445B-ACB3-09DDBE95FE5D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
